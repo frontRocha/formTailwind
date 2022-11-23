@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .input {
+        @apply bg-transparent border-0 border-b-[3px] font-thin border-r-gray-700 py-1 px-2
+    }
+}
