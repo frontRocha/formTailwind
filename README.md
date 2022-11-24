@@ -10,5 +10,5 @@ para usar o <strong>react</strong> e <strong>tailwind</strong> juntos.
 
 ## voce pode encontra-lo aqui:
 
-<a href="https://form-tailwind-beta.vercel.app/">site</a>
+<a href="https://formtailwind.vercel.app">site</a>
 
