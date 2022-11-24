@@ -4,11 +4,16 @@ import Input from '../../components/input/Input'
 import Button from '../../components/button/Button'
 
 export default function LoginPage() {
+
+    const submit = (e) => {
+        e.preventDefault()
+    }
+
     return(
         <section className='w-auto h-auto min bg-pink-100'>
             <div className='mx-auto max-w-[1400px] h-screen min-h-[500px] flex justify-around items-center'>
                 <img className='w-[28%] max-md:hidden' src={imagem} alt="imagem de login"/> 
-                <form className='w-[300px] h-[400px] py-5 px-2 bg-[#EEF1FF] flex flex-col items-center justify-around rounded-lg'>
+                <form className='w-[300px] h-[400px] py-5 px-2 bg-[#EEF1FF] flex flex-col items-center justify-around rounded-lg' onSubmit={submit}>
                 <h3 className='text-4xl font-thin text-pink-100 my-2'>Login</h3>
                         <div className='flex flex-col items-center justify-center h-screen gap-3'>
                         <div className='flex flex-col'>
