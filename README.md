@@ -3,9 +3,10 @@
 Este mini projeto foi criado com a ferramenta <strong>VITE</strong>
 para usar o <strong>react</strong> e <strong>tailwind</strong> juntos.
 
-##  preview
-
-<img width=500px src="https://github.dev/frontRocha/formTailwind/blob/master/my-project/src/assets/apresenta%C3%A7%C3%A3o.gif" />
+<h2 align="center"><strong>Preview</strong></h2>
+<div align="center">
+<img width=500px src="https://raw.githubusercontent.com/frontRocha/formTailwind/master/my-project/src/assets/apresenta%C3%A7%C3%A3o.gif" />
+</div>
 
 ## voce pode encontra-lo aqui:
 
